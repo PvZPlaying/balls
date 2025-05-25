@@ -1,0 +1,36 @@
+:root {
+            --background: #282828;
+            --text: #d9d9db;
+            --bg-shade: #191919;
+            --component: #373737;
+            --link: #39a6ff;
+        }
+        body {background-color: var(--background);
+        color: var(--text);
+        background-image: url(tlo.svg);
+        background-position: 0 0;
+        background-repeat: repeat;
+        background-size: .75rem;
+        background-attachment: fixed;
+        padding-top: 6rem;
+        padding-left: 6rem;
+        padding-right: 1.5rem;
+        font-family: Lato,sans-serif;
+        font-size: 1rem;
+        line-height: 1.35;
+        color: #333;
+        color: var(--text);
+        font-family: Lato,sans-serif;
+        font-size: 1rem;
+        line-height: 1.35;
+        text-align: center;
+        a:link { color: #39a6ff; } /* Unvisited link */
+        a:visited { color: #ff809f; } /* Visited link */
+        }
+  .container-gray {
+  border: 1px solid var(--bg-shade);
+  background-color: var(--component);
+  border-radius: 1rem;
+  padding: 1rem;
+  position: relative;
+}
